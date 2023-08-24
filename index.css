@@ -1,0 +1,229 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+.page-container {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.bundle-save {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 12px;
+}
+
+.line {
+    width: 93.996px;
+    height: 0.904px;
+}
+
+.main-heading {
+    color: #007F61;
+    font-family: Metropolis;
+    font-size: 18.076px;
+    font-weight: 500;
+    margin: 0 13.56px 0 13.56px;
+}
+
+.pair-card {
+    width: 340.734px;
+    border-radius: 3.615px;
+    border: 0.904px solid #007F61;
+    margin-bottom: 18px;
+}
+
+.visible-card {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    cursor: pointer;
+}
+
+.input-name-price {
+    display: flex;
+    align-items: center;
+}
+
+.radio {
+    width: 14.461px;
+    height: 14.461px;
+}
+
+.pair-title-price {
+    width: 90px;
+    margin-left: 18px;
+    margin-right: 33px;
+}
+
+.pair-title {
+    color: #000;
+    font-family: Inter;
+    font-size: 14.461px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.pair-price {
+    color: #000;
+    font-family: Inter;
+    font-size: 14.461px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-bottom: 10px;
+}
+
+.pair-saved {
+    color: #000;
+    font-family: Inter;
+    font-size: 9.942px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    opacity: 0.3;
+    text-decoration: line-through;
+    align-self: flex-end;
+    margin-bottom: 12px;
+}
+
+.popular-dicount-card {
+    margin-left: 10px;
+}
+
+.most-popular {
+    color: #007F61;
+    font-family: Inter;
+    font-size: 12.653px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.discount-percentage {
+    color: #000;
+    font-family: Inter;
+    font-size: 12.653px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-align: right;
+}
+
+.hidden-card {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+    margin-top: 0;
+}
+
+.size-color-titles-card {
+    display: flex;
+}
+
+.size-color-para {
+    color: #000;
+    font-family: Inter;
+    font-size: 9.942px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-left: 55px;
+}
+
+.hash-size-color {
+    display: flex;
+    margin-bottom: 8px;
+}
+
+.hash {
+    color: #000;
+    font-family: Inter;
+    font-size: 9.038px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-left: 37.6px;
+    margin-right: 8px;
+}
+
+.select-card {
+    margin-right: 8px;
+}
+
+.active-pair {
+    background-color: #F4FBF9;
+}
+
+.inactive-pair {
+    display: none;
+    padding-bottom: 20px;
+}
+
+.delivery-total-cart {
+    display: flex;
+    flex-direction: column;
+    width: 341px;
+}
+
+.delivery-total {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.delivery {
+    color: #007F61;
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    opacity: 0.6;
+
+}
+
+.total {
+    color: #000;
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.total-span {
+    color: #000;
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.add-to-cart {
+    width: 341px;
+    height: 48px;
+    border-radius: 4px 4px 4px 0;
+    background: #007F61;
+    color: #FFF;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.powered-by {
+    align-self: flex-end;
+    color: #000;
+    font-family: Inter;
+    font-size: 12px;
+    font-style: italic;
+    font-weight: 300;
+    line-height: normal;
+}
